@@ -1,4 +1,4 @@
-const ExploreTopBooks = () => {
+export const ExploreTopBooks = () => {
   return (
     <div className="p-5 mb-4 header bg-dark">
       <div
@@ -20,5 +20,3 @@ const ExploreTopBooks = () => {
     </div>
   );
 };
-
-export default ExploreTopBooks;

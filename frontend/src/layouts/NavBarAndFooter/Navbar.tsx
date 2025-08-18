@@ -1,4 +1,4 @@
-const Navbar = () => {
+export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark main-color py-3">
       <div className="container-fluid">
@@ -41,5 +41,3 @@ const Navbar = () => {
     </nav>
   );
 };
-
-export default Navbar;

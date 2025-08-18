@@ -1,15 +1,16 @@
 import "./App.css";
-import { Carousel } from "./layouts/HomePage/Carousel";
-import ExploreTopBooks from "./layouts/HomePage/ExploreTopBooks";
-import Navbar from "./layouts/NavBarAndFooter/Navbar";
+
+import { Navbar } from "./layouts/NavBarAndFooter/Navbar";
+import { Footer } from "./layouts/NavBarAndFooter/Footer";
+import HomePage from "./layouts/HomePage/HomePage";
 
 function App() {
   return (
-    <>
+    <div className="app">
       <Navbar />
-      <ExploreTopBooks />
-      <Carousel />
-    </>
+      <HomePage />
+      <Footer />
+    </div>
   );
 }
 

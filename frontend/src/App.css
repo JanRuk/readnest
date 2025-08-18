@@ -1,5 +1,13 @@
 /*Image for color pallet - https://colorhunt.co/palette/050c9c3572ef3abef9a7e6ff */
 
+.app {
+  background-color: #a7e6ff;
+}
+
+/* .container {
+  background-color: #3abef9;
+} */
+
 :root {
   --main-opacity: rgba(0, 0, 0, 0.55);
 }

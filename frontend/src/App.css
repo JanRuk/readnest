@@ -1,0 +1,57 @@
+/*Image for color pallet - https://colorhunt.co/palette/050c9c3572ef3abef9a7e6ff */
+
+:root {
+  --main-opacity: rgba(0, 0, 0, 0.55);
+}
+
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("images/public-images/image-2.jpg");
+  opacity: var(--main-opacity);
+  height: 25em;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.35);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.main-color {
+  background-color: #3572ef !important;
+}
+
+.col-image-left {
+  background-image: url("./images/public-images/image-4.jpg");
+  height: 25em !important;
+}
+
+.col-image-right {
+  background-image: url("./images/public-images/image-1.jpg");
+  height: 25em !important;
+}
+
+.lost-image {
+  background-image: url("./images/public-images/image-3.jpg");
+  height: 25em !important;
+  width: "720";
+}
+
+.homepage-carousel-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-div {
+  width: 480px;
+  height: 384 px;
+}
+
+.inactiveLink {
+  pointer-events: none;
+  cursor: default;
+}
